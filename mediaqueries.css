@@ -1,3 +1,8 @@
+@media screen and (min-width: 1401px) {
+	#profile {
+		padding-bottom: 16vh;
+	}
+}
 @media screen and (max-width: 1400px) {
 	#profile {
 		height: 83vh;
