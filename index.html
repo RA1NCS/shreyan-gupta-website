@@ -1,33 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 	<head>
 		<meta charset="UTF-8" />
-		<meta
-			http-equiv="X-UA-Compatible"
-			content="IE=edge"
-		/>
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1.0"
-		/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Shreyan Gupta</title>
-		<link
-			rel="stylesheet"
-			href="style.css"
-		/>
-		<link
-			rel="stylesheet"
-			href="mediaqueries.css"
-		/>
-		
-		<link 
-			rel="stylesheet"
-			type='text/css'
-			href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
-		/>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="mediaqueries.css" />
 	</head>
+
 	<body>
-		<nav id="desktoPp-nav">
+		<nav id="desktop-nav">
 			<div class="logo">Shreyan Gupta</div>
 			<div>
 				<ul class="nav-links">
@@ -41,84 +25,48 @@
 		<nav id="hamburger-nav">
 			<div class="logo">Shreyan Gupta</div>
 			<div class="hamburger-menu">
-				<div
-					class="hamburger-icon"
-					onclick="toggleMenu()"
-				>
+				<div class="hamburger-icon" onclick="toggleMenu()">
 					<span></span>
 					<span></span>
 					<span></span>
 				</div>
 				<div class="menu-links">
 					<li>
-						<a
-							href="#about"
-							onclick="toggleMenu()"
-							>About</a
-						>
+						<a href="#about" onclick="toggleMenu()">About</a>
 					</li>
 					<li>
-						<a
-							href="#experience"
-							onclick="toggleMenu()"
-							>Experience</a
-						>
+						<a href="#experience" onclick="toggleMenu()">Experience</a>
 					</li>
 					<li>
-						<a
-							href="#projects"
-							onclick="toggleMenu()"
-							>Projects</a
-						>
+						<a href="#projects" onclick="toggleMenu()">Projects</a>
 					</li>
 					<li>
-						<a
-							href="#contact"
-							onclick="toggleMenu()"
-							>Contact</a
-						>
+						<a href="#contact" onclick="toggleMenu()">Contact</a>
 					</li>
 				</div>
 			</div>
 		</nav>
 		<section id="profile">
 			<div class="section__pic-container">
-				<img
-					src="./assets/profile-pic.png"
-					alt="John Doe profile picture"
-				/>
+				<img src="./assets/profile-pic.png" alt="Shreyan Gupta profile picture" />
 			</div>
 			<div class="section__text">
 				<p class="section__text__p1">Hello, I'm</p>
 				<h1 class="title">Shreyan Gupta</h1>
 				<p class="section__text__p2">Frontend Developer</p>
 				<div class="btn-container">
-					<button
-						class="btn btn-color-2"
-						onclick="window.open('./assets/resume-example.pdf')"
-					>
-						Resume
+					<button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
+						Download CV
 					</button>
-					<button
-						class="btn btn-color-1"
-						onclick="location.href='./#contact'"
-					>
+					<button class="btn btn-color-1" onclick="location.href='./#contact'">
 						Contact Info
 					</button>
 				</div>
 				<div id="socials-container">
-					<img
-						src="./assets/linkedin.png"
-						alt="My LinkedIn profile"
-						class="icon"
-						onclick="location.href='https://www.linkedin.com/in/gshreyan/'"
-					/>
-					<img
-						src="./assets/github.png"
-						alt="My Github profile"
-						class="icon"
-						onclick="location.href='https://github.com/RA1NCS/'"
-					/>
+					<img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+						onclick="window.open('https://linkedin.com/in/gshreyan/', '_blank')" />
+					<img src="./assets/github.png" alt="My Github profile" class="icon"
+						onclick="window.open('https://github.com/RA1NCS/', '_blank')" />
 				</div>
 			</div>
 		</section>
@@ -127,38 +75,29 @@
 			<h1 class="title">About Me</h1>
 			<div class="section-container">
 				<div class="section__pic-container">
-					<img
-						src="./assets/about-pic.png"
-						alt="Profile picture"
-						class="about-pic"
-					/>
+					<img src="./assets/about-pic.png" alt="Profile picture" class="about-pic" />
 				</div>
 				<div class="about-details-container">
 					<div class="about-containers">
 						<div class="details-container">
-							<img
-								src="./assets/experience.png"
-								alt="Experience icon"
-								class="icon"
-							/>
+							<img src="./assets/experience.png" alt="Experience icon" class="icon" />
 							<h3>Experience</h3>
 							<p>
-								1+ year
-								<br />Software & Frontend
-								Development
+								Software & Frontend Development
+								<br />
+								<span class="sub-text">1+ year</span>
 							</p>
 						</div>
 						<div class="details-container">
-							<img
-								src="./assets/education.png"
-								alt="Education icon"
-								class="icon"
-							/>
+							<img src="./assets/education.png" alt="Education icon" class="icon" />
 							<h3>Education</h3>
 							<p>
-								B.Sc. Computer Science</br>Drexel University <img src="./assets/drexel.png" class="icon" id="drexel"/>
+								B.Sc. Computer Science <br />
+								<span class="sub-text">Drexel University <img src="./assets/drexel.png" class="icon"
+										id="drexel" />
+								</span>
 							</p>
-							
+
 						</div>
 					</div>
 					<div class="text-container">
@@ -181,12 +120,7 @@
 					</div>
 				</div>
 			</div>
-			<img
-				src="./assets/arrow.png"
-				alt="Arrow icon"
-				class="icon arrow"
-				onclick="location.href='./#experience'"
-			/>
+			<img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
 		</section>
 		<section id="experience">
 			<p class="section__text__p1">Explore My</p>
@@ -197,13 +131,10 @@
 						<h2 class="experience-sub-title">
 							Programming
 						</h2>
+						<!-- Programming Line 1 -->
 						<div class="article-container">
 							<article>
-								<img
-									src="./assets/checkmark.png"
-									alt="Experience icon"
-									class="icon"
-								/>
+								<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
 								<div>
 									<h3>Java</h3>
 									<p>
@@ -212,11 +143,7 @@
 								</div>
 							</article>
 							<article>
-								<img
-									src="./assets/checkmark.png"
-									alt="Experience icon"
-									class="icon"
-								/>
+								<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
 								<div>
 									<h3>Python</h3>
 									<p>
@@ -225,11 +152,7 @@
 								</div>
 							</article>
 							<article>
-								<img
-									src="./assets/checkmark.png"
-									alt="Experience icon"
-									class="icon"
-								/>
+								<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
 								<div>
 									<h3>JavaScript</h3>
 									<p>
@@ -237,42 +160,33 @@
 									</p>
 								</div>
 							</article>
+
+						</div>
+						<br>
+						<!-- Programming Line 2 -->
+						<div class="article-container">
 							<article>
-								<img
-									src="./assets/checkmark.png"
-									alt="Experience icon"
-									class="icon"
-								/>
+								<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
 								<div>
-									<h3>
-										TypeScript
-									</h3>
-									<p>Experienced</p>
+									<h3>TypeScript</h3>
+									<p>
+										Experienced
+									</p>
 								</div>
 							</article>
 							<article>
-								<img
-									src="./assets/checkmark.png"
-									alt="Experience icon"
-									class="icon"
-								/>
+								<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
 								<div>
-									<h3>
-										C
-									</h3>
-									<p>Intermediate</p>
+									<h3>C</h3>
+									<p>
+										Intermediate
+									</p>
 								</div>
 							</article>
 							<article>
-								<img
-									src="./assets/checkmark.png"
-									alt="Experience icon"
-									class="icon"
-								/>
+								<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
 								<div>
-									<h3>
-										C++
-									</h3>
+									<h3>C++</h3>
 									<p>
 										Intermediate
 									</p>
@@ -284,13 +198,10 @@
 						<h2 class="experience-sub-title">
 							Frontend Development
 						</h2>
+						<!-- Frontend Line 1 -->
 						<div class="article-container">
 							<article>
-								<img
-									src="./assets/checkmark.png"
-									alt="Experience icon"
-									class="icon"
-								/>
+								<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
 								<div>
 									<h3>
 										React
@@ -299,11 +210,7 @@
 								</div>
 							</article>
 							<article>
-								<img
-									src="./assets/checkmark.png"
-									alt="Experience icon"
-									class="icon"
-								/>
+								<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
 								<div>
 									<h3>
 										Node
@@ -314,11 +221,7 @@
 								</div>
 							</article>
 							<article>
-								<img
-									src="./assets/checkmark.png"
-									alt="Experience icon"
-									class="icon"
-								/>
+								<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
 								<div>
 									<h3>
 										Express
@@ -328,12 +231,12 @@
 									</p>
 								</div>
 							</article>
+						</div>
+						<br>
+						<!-- Frontend Line 2 -->
+						<div class="article-container">
 							<article>
-								<img
-									src="./assets/checkmark.png"
-									alt="Experience icon"
-									class="icon"
-								/>
+								<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
 								<div>
 									<h3>Tailwind</h3>
 									<p>
@@ -342,11 +245,7 @@
 								</div>
 							</article>
 							<article>
-								<img
-									src="./assets/checkmark.png"
-									alt="Experience icon"
-									class="icon"
-								/>
+								<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
 								<div>
 									<h3>Three JS</h3>
 									<p>
@@ -355,11 +254,7 @@
 								</div>
 							</article>
 							<article>
-								<img
-									src="./assets/checkmark.png"
-									alt="Experience icon"
-									class="icon"
-								/>
+								<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
 								<div>
 									<h3>Next JS</h3>
 									<p>
@@ -369,7 +264,6 @@
 							</article>
 						</div>
 					</div>
-					
 				</div>
 				<div class="details-container">
 					<h2 class="experience-sub-title">
@@ -378,11 +272,7 @@
 					<div class="articles-containers">
 						<div class="article-container">
 							<article>
-								<img
-									src="./assets/checkmark.png"
-									alt="Experience icon"
-									class="icon"
-								/>
+								<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
 								<div>
 									<h3>mySQL</h3>
 									<p>
@@ -391,11 +281,7 @@
 								</div>
 							</article>
 							<article>
-								<img
-									src="./assets/checkmark.png"
-									alt="Experience icon"
-									class="icon"
-								/>
+								<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
 								<div>
 									<h3>
 										MongoDB
@@ -404,11 +290,7 @@
 								</div>
 							</article>
 							<article>
-								<img
-									src="./assets/checkmark.png"
-									alt="Experience icon"
-									class="icon"
-								/>
+								<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
 								<div>
 									<h3>
 										Postgres
@@ -417,11 +299,7 @@
 								</div>
 							</article>
 							<article>
-								<img
-									src="./assets/checkmark.png"
-									alt="Experience icon"
-									class="icon"
-								/>
+								<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
 								<div>
 									<h3>
 										BootStrap
@@ -432,11 +310,7 @@
 								</div>
 							</article>
 							<article>
-								<img
-									src="./assets/checkmark.png"
-									alt="Experience icon"
-									class="icon"
-								/>
+								<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
 								<div>
 									<h3>
 										Flask
@@ -446,16 +320,23 @@
 									</p>
 								</div>
 							</article>
+							<article>
+								<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+								<div>
+									<h3>
+										NEW
+									</h3>
+									<p>
+										Beginner
+									</p>
+								</div>
+							</article>
 						</div>
 					</div>
-				</br>   
+					</br>
 					<div class="article-container">
 						<article>
-							<img
-								src="./assets/checkmark.png"
-								alt="Experience icon"
-								class="icon"
-							/>
+							<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
 							<div>
 								<h3>AWS EC2</h3>
 								<p>
@@ -464,11 +345,7 @@
 							</div>
 						</article>
 						<article>
-							<img
-								src="./assets/checkmark.png"
-								alt="Experience icon"
-								class="icon"
-							/>
+							<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
 							<div>
 								<h3>
 									AWS WAF
@@ -477,11 +354,7 @@
 							</div>
 						</article>
 						<article>
-							<img
-								src="./assets/checkmark.png"
-								alt="Experience icon"
-								class="icon"
-							/>
+							<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
 							<div>
 								<h3>
 									AWS Shield
@@ -490,14 +363,10 @@
 							</div>
 						</article>
 						<article>
-							<img
-								src="./assets/checkmark.png"
-								alt="Experience icon"
-								class="icon"
-							/>
+							<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
 							<div>
 								<h3>
-									BootStrap
+									Auth0
 								</h3>
 								<p>
 									Intermediate
@@ -505,161 +374,103 @@
 							</div>
 						</article>
 						<article>
-							<img
-								src="./assets/checkmark.png"
-								alt="Experience icon"
-								class="icon"
-							/>
+							<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
 							<div>
 								<h3>
-									Flask
+									Docker
 								</h3>
 								<p>
 									Intermediate
 								</p>
 							</div>
 						</article>
+						<article>
+							<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+							<div>
+								<h3>
+									NEW
+								</h3>
+								<p>
+									Beginner
+								</p>
+							</div>
+						</article>
 					</div>
 				</div>
 			</div>
-			<img
-				src="./assets/arrow.png"
-				alt="Arrow icon"
-				class="icon arrow"
-				onclick="location.href='./#projects'"
-			/>
+			<img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
 		</section>
 		<section id="projects">
 			<p class="section__text__p1">Browse My Recent</p>
 			<h1 class="title">Projects</h1>
 			<div class="experience-details-container">
 				<div class="about-containers">
-					<div
-						class="details-container color-container"
-					>
+					<div class="details-container color-container">
 						<div class="article-container">
-							<img
-								src="./assets/project-1.png"
-								alt="Project 1"
-								class="project-img"
-							/>
+							<img src="./assets/project-1.png" alt="Project 1" class="project-img" />
 						</div>
-						<h2
-							class="experience-sub-title project-title"
-						>
+						<h2 class="experience-sub-title project-title">
 							Project One
 						</h2>
 						<div class="btn-container">
-							<button
-								class="btn btn-color-2 project-btn"
-								onclick="location.href='https://github.com/'"
-							>
+							<button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
 								Github
 							</button>
-							<button
-								class="btn btn-color-2 project-btn"
-								onclick="location.href='https://github.com/'"
-							>
+							<button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
 								Live Demo
 							</button>
 						</div>
 					</div>
-					<div
-						class="details-container color-container"
-					>
+					<div class="details-container color-container">
 						<div class="article-container">
-							<img
-								src="./assets/project-2.png"
-								alt="Project 2"
-								class="project-img"
-							/>
+							<img src="./assets/project-2.png" alt="Project 2" class="project-img" />
 						</div>
-						<h2
-							class="experience-sub-title project-title"
-						>
+						<h2 class="experience-sub-title project-title">
 							Project Two
 						</h2>
 						<div class="btn-container">
-							<button
-								class="btn btn-color-2 project-btn"
-								onclick="location.href='https://github.com/'"
-							>
+							<button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
 								Github
 							</button>
-							<button
-								class="btn btn-color-2 project-btn"
-								onclick="location.href='https://github.com/'"
-							>
+							<button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
 								Live Demo
 							</button>
 						</div>
 					</div>
-					<div
-						class="details-container color-container"
-					>
+					<div class="details-container color-container">
 						<div class="article-container">
-							<img
-								src="./assets/project-3.png"
-								alt="Project 3"
-								class="project-img"
-							/>
+							<img src="./assets/project-3.png" alt="Project 3" class="project-img" />
 						</div>
-						<h2
-							class="experience-sub-title project-title"
-						>
+						<h2 class="experience-sub-title project-title">
 							Project Three
 						</h2>
 						<div class="btn-container">
-							<button
-								class="btn btn-color-2 project-btn"
-								onclick="location.href='https://github.com/'"
-							>
+							<button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
 								Github
 							</button>
-							<button
-								class="btn btn-color-2 project-btn"
-								onclick="location.href='https://github.com/'"
-							>
+							<button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
 								Live Demo
 							</button>
 						</div>
 					</div>
 				</div>
 			</div>
-			<img
-				src="./assets/arrow.png"
-				alt="Arrow icon"
-				class="icon arrow"
-				onclick="location.href='./#contact'"
-			/>
+			<img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
 		</section>
 		<section id="contact">
 			<p class="section__text__p1">Get in Touch</p>
 			<h1 class="title">Contact Me</h1>
 			<div class="contact-info-upper-container">
 				<div class="contact-info-container">
-					<img
-						src="./assets/email.png"
-						alt="Email icon"
-						class="icon contact-icon email-icon"
-					/>
+					<img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
 					<p>
-						<a
-							href="mailto:gshreyan08@gmail.com"
-							>E-Mail</a
-						>
+						<a href="mailto:gshreyan08@gmail.com">E-Mail</a>
 					</p>
 				</div>
 				<div class="contact-info-container">
-					<img
-						src="./assets/linkedin.png"
-						alt="LinkedIn icon"
-						class="icon contact-icon"
-					/>
+					<img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
 					<p>
-						<a href="https://www.linkedin.com/in/gshreyan/"
-							>LinkedIn</a
-						>
+						<a href="https://www.linkedin.com/in/gshreyan">LinkedIn</a>
 					</p>
 				</div>
 			</div>
@@ -670,25 +481,23 @@
 					<ul class="nav-links">
 						<li><a href="#about">About</a></li>
 						<li>
-							<a href="#experience"
-								>Experience</a
-							>
+							<a href="#experience">Experience</a>
 						</li>
 						<li>
-							<a href="#projects"
-								>Projects</a
-							>
+							<a href="#projects">Projects</a>
 						</li>
 						<li>
-							<a href="#contact"
-								>Contact</a
-							>
+							<a href="#contact">Contact</a>
 						</li>
 					</ul>
 				</div>
 			</nav>
-			<p>Copyright &#169; 2024 Shreyan Gupta. All Rights Reserved.</p>
+			<p>
+				Copyright &#169; 2023 Shreyan Gupta. All Rights
+				Reserved.
+			</p>
 		</footer>
 		<script src="script.js"></script>
 	</body>
+
 </html>

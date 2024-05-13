@@ -286,6 +286,7 @@ section {
 	margin-left: 0.25rem;
 	height: 1.1rem;
 	margin-bottom: -0.15rem;
+	cursor: default;
 }
 
 .about-containers,
@@ -294,7 +295,9 @@ section {
 }
 
 .about-pic {
-	border-radius: 2rem;
+	border-radius: 50%;
+	aspect-ratio: 1;
+	object-fit: contain;
 }
 
 .arrow {
@@ -311,6 +314,10 @@ section {
 	border: rgb(53, 53, 53) 0.1rem solid;
 	border-color: rgb(163, 163, 163);
 	text-align: center;
+}
+
+.details-container p span {
+	color: rgb(143, 143, 143);
 }
 
 .section-container {
