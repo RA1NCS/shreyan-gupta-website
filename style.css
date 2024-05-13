@@ -226,6 +226,7 @@ section {
 }
 
 .btn {
+	font-family: 'Poppins', sans-serif;
 	font-weight: 600;
 	transition: all 300ms ease;
 	padding: 1rem;
