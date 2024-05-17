@@ -176,10 +176,6 @@ section {
 	margin: auto 0;
 }
 
-.section__pic-container img {
-	border-radius: 50%;
-}
-
 .section__text {
 	align-self: center;
 	text-align: center;
@@ -209,6 +205,10 @@ section {
 	font-weight: 200;
 	margin-left: 1px;
 	color: rgb(143, 143, 143);
+}
+
+#homepage_pic {
+	border-radius: 50%;
 }
 
 #home-buttons {
@@ -307,9 +307,13 @@ section {
 	display: flex;
 }
 
+.text-container {
+	text-align: center;
+}
+
 .about-pic {
-	border-radius: 50%;
-	aspect-ratio: 1;
+	border-radius: 40px;
+	/* aspect-ratio: 1; */
 	object-fit: contain;
 }
 
