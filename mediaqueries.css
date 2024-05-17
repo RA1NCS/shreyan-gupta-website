@@ -5,7 +5,7 @@
 }
 @media screen and (max-width: 1400px) {
 	#profile {
-		height: 83vh;
+		height: 70vh;
 		margin-bottom: 6rem;
 	}
 	.about-containers {
@@ -93,12 +93,16 @@
 		text-align: center;
 	}
 	.section__pic-container {
+		margin-top: 3.5rem;
 		width: auto;
-		height: 46vw;
+		height: 49vw;
 		justify-content: center;
 	}
-	.section__text__p2 {
+	#role {
 		font-size: 1.25rem;
+	}
+	#home-buttons {
+		margin-top: 2.5rem;
 	}
 	.title {
 		font-size: 2rem;

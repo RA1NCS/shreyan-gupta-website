@@ -193,14 +193,26 @@ section {
 	text-align: center;
 }
 
-.section__text__p2 {
-	font-size: 1.75rem;
-	margin-bottom: 1rem;
-}
-
 .title {
 	font-size: 3rem;
 	text-align: center;
+}
+
+#role,
+.typed-cursor {
+	font-weight: 600;
+	font-size: 1.75rem;
+	color: rgb(85, 85, 85);
+}
+
+.typed-cursor {
+	font-weight: 200;
+	margin-left: 1px;
+	color: rgb(143, 143, 143);
+}
+
+#home-buttons {
+	margin-top: 1.5rem;
 }
 
 #socials-container {

@@ -8,6 +8,8 @@
 		<title>Shreyan Gupta</title>
 		<link rel="stylesheet" href="style.css" />
 		<link rel="stylesheet" href="mediaqueries.css" />
+		<link rel="icon" type="image/x-icon" href="/assets/logo.png">
+		<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 	</head>
 
 	<body>
@@ -53,10 +55,21 @@
 			<div class="section__text">
 				<p class="section__text__p1">Hello, I'm</p>
 				<h1 class="title">Shreyan Gupta</h1>
-				<p class="section__text__p2">Frontend Developer</p>
-				<div class="btn-container">
-					<button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">
-						Download CV
+				<span id="role"></span>
+				<script>
+					var typed = new Typed('#role', {
+						strings: ['Network Engineer', 'Frontend Developer'],
+						typeSpeed: 50,
+						backSpeed: 30,
+						loop: true,
+					});
+				</script>
+				<div class="btn-container" id="home-buttons">
+					<button class="btn btn-color-1" onclick="window.open('./assets/cyber_resume.pdf')">
+						CyberSecurity
+					</button>
+					<button class="btn btn-color-2" onclick="window.open('./assets/software_resume.pdf')">
+						Software Eng.
 					</button>
 					<button class="btn btn-color-1" onclick="location.href='./#contact'">
 						Contact Info
@@ -83,7 +96,7 @@
 							<img src="./assets/experience.png" alt="Experience icon" class="icon" />
 							<h3>Experience</h3>
 							<p>
-								Software & Frontend Development
+								CyberSecurity & Web Development
 								<br />
 								<span class="sub-text">1+ year</span>
 							</p>
@@ -92,7 +105,7 @@
 							<img src="./assets/education.png" alt="Education icon" class="icon" />
 							<h3>Education</h3>
 							<p>
-								B.Sc. Computer Science <br />
+								B.Sc. Computer Science; Minor in Security Technology<br />
 								<span class="sub-text">Drexel University <img src="./assets/drexel.png" class="icon"
 										id="drexel" />
 								</span>
