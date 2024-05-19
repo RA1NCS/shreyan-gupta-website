@@ -84,6 +84,29 @@
 	.experience-sub-title {
 		font-size: 1.25rem;
 	}
+	.certifications-sub-title {
+		font-size: 0.75rem;
+	}
+	.article-container {
+	}
+	.cert-container {
+		flex-direction: column;
+	}
+	.cert-left {
+		width: 0rem;
+		padding-right: 0;
+	}
+	.certification {
+		width: fit-content;
+	}
+	.certifications-sub-title {
+		writing-mode: horizontal-tb;
+		letter-spacing: 0.15rem;
+	}
+	.vl,
+	.cert-details {
+		display: none;
+	}
 	.logo {
 		font-size: 1.5rem;
 	}

@@ -333,6 +333,53 @@ section {
 	text-align: center;
 }
 
+.skills-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.cybersec-skills {
+	height: fit-content;
+}
+
+hr {
+	margin-top: 1rem;
+}
+
+.cert-container {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.cert-articles-container {
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+}
+
+.cert-article-containers {
+	padding: 2rem;
+}
+
+.articles-container {
+	width: fit-content;
+}
+
+.flex-equal {
+	flex: 1;
+}
+
+.flex-more {
+	flex: 1.1;
+}
+
+.flex-less {
+	flex: 0.6;
+}
+
 .details-container p span {
 	color: rgb(143, 143, 143);
 }
@@ -354,20 +401,31 @@ section {
 	position: relative;
 }
 
-.experience-sub-title {
+.experience-sub-title,
+certifications-sub-title {
 	color: rgb(85, 85, 85);
 	font-weight: 600;
 	font-size: 1.75rem;
 	margin-bottom: 2rem;
 }
 
+.certifications-sub-title {
+	font-size: 0.8rem;
+	font-weight: 600;
+	padding: 0 0rem;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+}
+
 .experience-details-container {
+	margin-top: 3rem;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 }
 
 .article-container {
+	width: 100%;
 	display: flex;
 	text-align: initial;
 	flex-wrap: wrap;
@@ -376,15 +434,64 @@ section {
 	justify-content: space-around;
 }
 
-article {
+article,
+.certification {
 	display: flex;
-	width: 10rem;
+	width: 12rem;
 	justify-content: space-around;
 	gap: 0.5rem;
 }
 
+.certification {
+	width: 35rem;
+}
+
+.cert-left {
+	width: 25rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-right: 1rem;
+}
+
+.cert-right {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cert-details {
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+
+.certs-container {
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem 6rem 0 6rem;
+}
+
+.vl {
+	border-left: 1px solid black;
+	height: auto;
+	padding: 0 1rem 0 1rem;
+}
+
+.view-certification {
+	font-size: 0.5rem;
+	padding: 0.1rem 0.2rem;
+	border: 1px solid black;
+	margin-bottom: 0.5rem;
+	align-self: flex-start;
+	transition: all 150ms ease;
+}
+
 article .icon {
 	cursor: default;
+}
+
+#other {
+	margin-top: 2rem;
 }
 
 /* PROJECTS SECTION */
